@@ -1,0 +1,33 @@
+#--------------------------------------------------
+# Répertoire : /
+#--------------------------------------------------
+
+# Le serveur doit suivre les liens symboliques :
+Options +FollowSymlinks
+
+# Activation du module de réécriture d'URL :
+RewriteEngine on
+
+
+#--------------------------------------------------
+# ROUTES
+#--------------------------------------------------
+
+    # DETAILS D'UN POST
+    # PATTERN: posts/{id}/{slug}
+    # VERS: index.php?postID=X
+
+
+
+
+
+
+#Route 1 - Liste des posts
+#PATTERN: /post/id/slug.html
+#Route : ?postID=xxx
+
+
+
+#Route 2 : Détails des posts
+#PATTERN : /blog
+#ROUTE   :
